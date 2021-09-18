@@ -6,7 +6,8 @@ import {makeStyles} from "@material-ui/styles"
 
 const useStyles = makeStyles({
     particlesCanava: {
-        postion: "absolute"
+        postion: "absolute",
+        opacity: "0.3",
     }
 })
 
@@ -23,31 +24,31 @@ export const Home = () => {
           params={{
               particles: {
                   number: {
-                      value: 150,
+                      value: 80,
                       density: {
                         enabled: true,
-                        volume_area: 100000
+                        volume_area: 500
                       }
                   },
                   shape: {
                       type: "circle",
                       stroke: {
                           width: 1,
-                          color: "teal"
+                          color: "purple"
                       }
                   },
                   size: {
-                      value: 4,
+                      value: 5,
                       random: true,
                       anim: {
                           enable: true,
-                          speed: .01,
+                          speed: .001,
                           size_min: 0.1,
                           sync: true
                       }
                   },
                   opacity:{
-                      value: .5,
+                      value: 1,
                       random: true,
                       anim : {
                           enable: true,
