@@ -3,95 +3,32 @@ import {makeStyles} from '@material-ui/core/styles'
 import {Typography, Box} from '@material-ui/core/'
 import Navbar from './Navbar'
 
-// const useStyles = makeStyles(theme=>({
-//     mainContainer: {
-//         background: '#223'
-//     },
-//     timeLine: {
-//         postion: 'relative',
-//         padding: '1rem',
-//         margin: '0 auto',
-//         '$:before': {
-//             content: '""',
-//             position: 'absolute',
-//             height: '100%',
-//             border: '1px solid purple',
-//             right: '40px',
-//             top: 0
-//         },
-//         '&:after': {
-//             content: '""',
-//             display: 'table',
-//             clear: 'both'
-//         },
-//         [theme.breakpoints.up('md')]:{
-//             padding: '2rem',
-//             '&:before': {
-//                 left: 'calc(50% - 1px)',
-//                 right: 'auto'
-//             }
-//         }
-//     },
-//     timeLineYear: {
-//         textAlign:'center',
-//         maxWidth: '9.375rem',
-//         margin: '0 3rem 0 auto',
-//         fontSize: '1.8rem',
-//         background: 'teal',
-//         color: 'white',
-//         lineHeight: 1,
-//         padding: '0.5rem 0 1rem',
-//         '&:before': {
-//             display: 'none'
-//         },
-//         [theme.breakpoints.up("md")]: {
-//             textAlign: 'center',
-//             margin: '0 auto',
-//             '&:nth-of-type(2n)': {
-//                 float: 'none',
-//                 margin: '0 auto'
-//             },
-//             '&:nth-of-type(2n):before': {
-//                 display: 'none'
-//             }
-//         }
-//     }
-// }))
-
-// export const Resume = () => {
-//     const classes = useStyles();
-//     return (
-//         <>
-//
-//         <Box component="div" className={classes.mainContainer}>
-//             <Typography align="center">
-//                 working experience
-//             </Typography>
-//             <Box component='div' className={classes.timeLine}>
-//                 <Typography variant='h2' className={classes.timeLineYear}>2013</Typography>
-//             </Box>
-//         </Box>
-//         </>
-//     );
-// };
-
 export const Resume = () => {
 
     return (
         <>
-        <Navbar />
+        <Navbar/>
         <div>
         <div className="card brown lighten-3 z-depth-0">
             <div className="card-content">
-                <h6 className="no-pad mt-bottom brown-text text-darken-4">
-                    <strong>ABOUT ME</strong>
+                <h6 className="brown-text text-darken-4">
+                    <strong>
+                        <i className="fas fa-tools"></i> SUMMARY
+                    </strong>
                 </h6>
-                <p className="pt brown-text text-darken-4">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, earum
-            doloribus dicta quod architecto, praesentium totam molestiae
-            similique culpa repellat blanditiis nam facilis eius quaerat
-            distinctio vitae, tenetur beatae repellendus?
-                </p>
+                <hr />
+                <div className="row mt">
+                    <div className="col s12">
+                        <blockquote>
+                            <h6 className="brown-text text-darken-4">
+                            </h6>
+                            <list className="pt brown-text text-darken-4">
+               <li>Familiar with Windows, Mac, and some Linux.</li>
+               <li>Problem-solver, dedicated, loyal.</li>
+               <li>Technical thinking, self-starter, team player.</li>
+                </list>
+                        </blockquote>
+                    </div>
         <div>
         <div className="card brown lighten-3 z-depth-0">
             <div className="card-content">
@@ -105,42 +42,30 @@ export const Resume = () => {
                     <div className="col s12">
                         <blockquote>
                             <h6 className="brown-text text-darken-4">
-                                <strong>BACHELOR OF ART</strong>
-                                <span>2009 - 2013</span>
+                                <strong> Ponderosa High School​,​ ​Parker, Colorado </strong>
+                                <span>Graduation: May 2011</span>
                             </h6>
                             <p className="pt brown-text text-darken-4">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam,
-                  earum doloribus dicta quod architecto, praesentium totam
-                  molestiae similique culpa repellat blanditiis nam facilis eius
-                  quaerat distinctio vitae, tenetur beatae repellendus?
                             </p>
                         </blockquote>
                     </div>
                     <div className="col s12">
                         <blockquote>
                             <h6 className="brown-text text-darken-4">
-                                <strong>BACHELOR OF SCIENCE</strong>
-                                <span>2014 - 2019</span>
+                                <strong> San Juan College | Farmington, New Mexico​ Associates of Applied Science in Automotive Technology</strong>
+                                <span>Graduation: December 2018</span>
                             </h6>
                             <p className="pt brown-text text-darken-4">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam,
-                  earum doloribus dicta quod architecto, praesentium totam
-                  molestiae similique culpa repellat blanditiis nam facilis eius
-                  quaerat distinctio vitae, tenetur beatae repellendus?
                             </p>
                         </blockquote>
                     </div>
                     <div className="col s12">
                         <blockquote>
                             <h6 className="brown-text text-darken-4">
-                                <strong>MASTER OF ART</strong>
-                                <span>2019 - 2021</span>
+                                <strong>University of Denver Coding Boot Camp | Denver, Colorado MERN-Stack</strong>
+                                <span>Graduation October 2021</span>
                             </h6>
                             <p className="pt brown-text text-darken-4">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam,
-                  earum doloribus dicta quod architecto, praesentium totam
-                  molestiae similique culpa repellat blanditiis nam facilis eius
-                  quaerat distinctio vitae, tenetur beatae repellendus?
                             </p>
                         </blockquote>
                         <div>
@@ -156,49 +81,42 @@ export const Resume = () => {
                     <div className="col s12">
                         <blockquote>
                             <h6 className="brown-text text-darken-4">
-                                <strong>FULL STACK WEB DEVELOPER</strong>
-                                <span>2015 - 2021</span>
+                                <strong>Groove Toyota, Line Technician</strong>
+                                <span>April 2015 – Present</span>
                             </h6>
-                            <p className="pt brown-text text-darken-4">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam,
-                  earum doloribus dicta quod architecto, praesentium totam
-                  molestiae similique culpa repellat blanditiis nam facilis eius
-                  quaerat distinctio vitae, tenetur beatae repellendus?
-                            </p>
+                            <list className="pt brown-text text-darken-4">
+               <li>Worked collaboratively on a team of four balancing workload and promise times to meet and exceed customer expectations.</li>
+               <li>Followed technical instruction to complete warranty repairs due to manufacturing defaults. Documented repairs and sent information to engineers to help improve the product.</li>
+               <li>Coordinated with various parties, such as advisors, fellow technicians, parts departments, specialty engineers, customers, and upper management to ensure customer satisfaction. </li>
+                </list>
                         </blockquote>
                     </div>
+                    <div className="card brown lighten-3 z-depth-0">
+            <div className="card-content">
+                <h6 className="brown-text text-darken-4">
+                    <strong>
+                        <i className="fas fa-tools"></i> CERTIFICATIONS
+                    </strong>
+                </h6>
+                <hr />
+                <div className="row mt">
                     <div className="col s12">
                         <blockquote>
                             <h6 className="brown-text text-darken-4">
-                                <strong>BACKEND WEB DEVELOPER</strong>
-                                <span>2011 - 2015</span>
+                                <strong>Groove Toyota, Line Technician</strong>
+                                <span>April 2015 – Present</span>
                             </h6>
-                            <p className="pt brown-text text-darken-4">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam,
-                  earum doloribus dicta quod architecto, praesentium totam
-                  molestiae similique culpa repellat blanditiis nam facilis eius
-                  quaerat distinctio vitae, tenetur beatae repellendus?
-                            </p>
+                            <list className="pt brown-text text-darken-4">
+               <li>A1-A8 ASE’s</li>
+                </list>
                         </blockquote>
                     </div>
-                    <div className="col s12">
-                        <blockquote>
-                            <h6 className="brown-text text-darken-4">
-                                <strong>FRONT END WEB DEVELOPER</strong>
-                                <span>2009 - 2011</span>
-                            </h6>
-                            <p className="pt brown-text text-darken-4">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam,
-                  earum doloribus dicta quod architecto, praesentium totam
-                  molestiae similique culpa repellat blanditiis nam facilis eius
-                  quaerat distinctio vitae, tenetur beatae repellendus?
-                            </p>
-                        </blockquote>
+                    
         <div>
           <div className="card brown lighten-1 z-depth-0">
               <div className="card-content">
                   <h6 className="white-text">
-                      <strong># PROFESSIONAL SKILLS</strong>
+                      <strong>PROFESSIONAL SKILLS</strong>
                   </h6>
                   <hr />
                   <div className="row pt">
@@ -223,7 +141,7 @@ export const Resume = () => {
                           </div>
                       </div>
                       <div className="col m6 s12">
-                          <p class="grey-text text-lighten-2">PHP</p>
+                          <p class="grey-text text-lighten-2">REACT</p>
                           <div className="progress white">
                               <div className="determinate brown lighten-3" style={{ width: '95%' }}></div>
                           </div>
@@ -237,7 +155,7 @@ export const Resume = () => {
                           </div>
                       </div>
                       <div className="col m6 s12">
-                          <p class="grey-text text-lighten-2">JQUERY</p>
+                          <p class="grey-text text-lighten-2">MongoDB</p>
                           <div className="progress white">
                               <div className="determinate brown lighten-3" style={{ width: '85%' }}></div>
                           </div>
@@ -259,7 +177,10 @@ export const Resume = () => {
       </div>
       </div>
         </div>
-      </div>
+        </div>
+        </div>
+        </div>
+        </div>
       </>
       )
     }
