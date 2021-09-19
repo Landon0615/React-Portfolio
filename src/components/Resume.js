@@ -13,7 +13,7 @@ export const Resume = () => {
             <div className="card-content">
                 <h6 className="brown-text text-darken-4">
                     <strong>
-                        <i className="fas fa-tools"></i> SUMMARY
+                        <i className="fas fa-graduation-cap"></i> SUMMARY
                     </strong>
                 </h6>
                 <hr />
@@ -21,14 +21,29 @@ export const Resume = () => {
                     <div className="col s12">
                         <blockquote>
                             <h6 className="brown-text text-darken-4">
+                                <strong> Familiar with Windows, Mac, and some Linux. </strong>
                             </h6>
-                            <list className="pt brown-text text-darken-4">
-               <li>Familiar with Windows, Mac, and some Linux.</li>
-               <li>Problem-solver, dedicated, loyal.</li>
-               <li>Technical thinking, self-starter, team player.</li>
-                </list>
+                            <p className="pt brown-text text-darken-4">
+                            </p>
                         </blockquote>
                     </div>
+                    <div className="col s12">
+                        <blockquote>
+                            <h6 className="brown-text text-darken-4">
+                                <strong> Problem-solver, dedicated, loyal.</strong>
+                            </h6>
+                            <p className="pt brown-text text-darken-4">
+                            </p>
+                        </blockquote>
+                    </div>
+                    <div className="col s12">
+                        <blockquote>
+                            <h6 className="brown-text text-darken-4">
+                                <strong>Technical thinking, self-starter, team player.</strong>
+                            </h6>
+                            <p className="pt brown-text text-darken-4">
+                            </p>
+                        </blockquote>
         <div>
         <div className="card brown lighten-3 z-depth-0">
             <div className="card-content">
@@ -73,7 +88,7 @@ export const Resume = () => {
             <div className="card-content">
                 <h6 className="brown-text text-darken-4">
                     <strong>
-                        <i className="fas fa-tools"></i> EXPERIENCE
+                        <i className="fas fa-graduation-cap"></i> EXPERIENCE
                     </strong>
                 </h6>
                 <hr />
@@ -81,21 +96,43 @@ export const Resume = () => {
                     <div className="col s12">
                         <blockquote>
                             <h6 className="brown-text text-darken-4">
-                                <strong>Groove Toyota, Line Technician</strong>
+                            <strong> Groove Toyota, Line Technician </strong>
                                 <span>April 2015 – Present</span>
                             </h6>
-                            <list className="pt brown-text text-darken-4">
-               <li>Worked collaboratively on a team of four balancing workload and promise times to meet and exceed customer expectations.</li>
-               <li>Followed technical instruction to complete warranty repairs due to manufacturing defaults. Documented repairs and sent information to engineers to help improve the product.</li>
-               <li>Coordinated with various parties, such as advisors, fellow technicians, parts departments, specialty engineers, customers, and upper management to ensure customer satisfaction. </li>
-                </list>
+                            <p className="pt brown-text text-darken-4">
+                            </p>
                         </blockquote>
                     </div>
-                    <div className="card brown lighten-3 z-depth-0">
+                    <div className="col s12">
+                        <blockquote>
+                            <h6 className="brown-text text-darken-4">
+                                <strong> Worked collaboratively on a team of four balancing workload and promise times to meet and exceed customer expectations.</strong>
+                            </h6>
+                            <p className="pt brown-text text-darken-4">
+                            </p>
+                        </blockquote>
+                    </div>
+                    <div className="col s12">
+                        <blockquote>
+                            <h6 className="brown-text text-darken-4">
+                                <strong>Followed technical instruction to complete warranty repairs due to manufacturing defaults. Documented repairs and sent information to engineers to help improve the product.  </strong>
+                            </h6>
+                            <p className="pt brown-text text-darken-4">
+                            </p>
+                        </blockquote>
+                        <blockquote>
+                            <h6 className="brown-text text-darken-4">
+                                <strong> Coordinated with various parties, such as advisors, fellow technicians, parts departments, specialty engineers, customers, and upper management to ensure customer satisfaction.  </strong>
+                            </h6>
+                            <p className="pt brown-text text-darken-4">
+                            </p>
+                        </blockquote>
+                        <div>
+        <div className="card brown lighten-3 z-depth-0">
             <div className="card-content">
                 <h6 className="brown-text text-darken-4">
                     <strong>
-                        <i className="fas fa-tools"></i> CERTIFICATIONS
+                        <i className="fas fa-graduation-cap"></i> SUMMARY
                     </strong>
                 </h6>
                 <hr />
@@ -103,14 +140,11 @@ export const Resume = () => {
                     <div className="col s12">
                         <blockquote>
                             <h6 className="brown-text text-darken-4">
-                                <strong>Groove Toyota, Line Technician</strong>
-                                <span>April 2015 – Present</span>
+                                <strong> A1-A8 ASE’s</strong>
                             </h6>
-                            <list className="pt brown-text text-darken-4">
-               <li>A1-A8 ASE’s</li>
-                </list>
+                            <p className="pt brown-text text-darken-4">
+                            </p>
                         </blockquote>
-                    </div>
                     
         <div>
           <div className="card brown lighten-1 z-depth-0">
@@ -176,6 +210,10 @@ export const Resume = () => {
         </div>
       </div>
       </div>
+        </div>
+        </div>
+        </div>
+        </div>
         </div>
         </div>
         </div>
