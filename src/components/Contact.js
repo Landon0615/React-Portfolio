@@ -78,7 +78,6 @@ function Contact() {
         {errorMessage && (
           <div>
             <p className="error-text contact-el">
-              <img salt="Exclamation point" className="warning-icon"/>
               {errorMessage}</p>
           </div>
         )}
