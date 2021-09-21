@@ -18,7 +18,7 @@ export const Particle = () => {
           params={{
               particles: {
                   number: {
-                      value: 80,
+                      value: 40,
                       density: {
                         enabled: true,
                         volume_area: 500
