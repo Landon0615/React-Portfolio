@@ -15,7 +15,7 @@ function App() {
   return (
     <>
 <CssBaseline />
-<Route extac path="/" component={Home} />
+<Route path="/" component={Home} />
 <Route path='/resume' component={Resume} />
 <Route path='/projects' component={Projects} />
 <Route path='/contact' component={Contact} />
