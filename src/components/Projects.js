@@ -2,7 +2,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
-import Navbar from './Navbar'
 import budgetTracker from "./images/budget-tracker.png";
 import daySchedular from "./images/day-schedular.png";
 import kitchenForager from "./images/kitchenForager.png";
@@ -13,7 +12,6 @@ import workoutTracker from "./images/workout-tracker.png";
 function Projects() {
   return (
     <>
-    <Navbar/>
     <Container fluid className="project-section">
       <Container>
         <h1 className="project-heading">

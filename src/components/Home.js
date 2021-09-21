@@ -2,18 +2,18 @@ import React from 'react'
 import Navbar from './Navbar'
 import Header from './Header'
 // import Particles from 'particlesjs'
-import {makeStyles} from "@material-ui/styles"
+// import {makeStyles} from "@material-ui/styles"
 
-const useStyles = makeStyles({
-    particlesCanava: {
-        postion: "absolute",
-        opacity: "0.3",
-    }
-})
+// const useStyles = makeStyles({
+//     particlesCanava: {
+//         postion: "absolute",
+//         opacity: "0.3",
+//     }
+// })
 
 export const Home = () => {
 
-    const classes = useStyles()
+    // const classes = useStyles()
 
     return (
         <>
