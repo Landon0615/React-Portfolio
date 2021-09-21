@@ -1,25 +1,19 @@
-import React from 'react'
-import Navbar from './Navbar'
-import Header from './Header'
-// import Particles from 'particlesjs'
-// import {makeStyles} from "@material-ui/styles"
+import Particles from 'react-particles-js'
+import {makeStyles} from "@material-ui/styles"
 
-// const useStyles = makeStyles({
-//     particlesCanava: {
-//         postion: "absolute",
-//         opacity: "0.3",
-//     }
-// })
+const useStyles = makeStyles({
+    particlesCanava: {
+        postion: "absolute",
+        opacity: "0.3",
+    }
+})
 
-export const Home = () => {
+export const Particle = () => {
 
-    // const classes = useStyles()
+    const classes = useStyles()
 
     return (
-        <>
-        <Navbar/>
-        <Header/>
-        {/* <Particles
+        <Particles
         canvasClassName={classes.particlesCanava}
           params={{
               particles: {
@@ -59,9 +53,9 @@ export const Home = () => {
                   }
               }
           }}
-        /> */}
-        </>
-    );
+        />
+        );
 };
 
-export default Home;
+
+        export default Particle;

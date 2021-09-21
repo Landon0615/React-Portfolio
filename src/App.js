@@ -4,7 +4,7 @@ import CssBaseline from '@material-ui/core/CssBaseline'
 import "materialize-css/dist/css/materialize.min.css";
 import "materialize-css/dist/js/materialize.min.js";
 import './App.css';
-import Home from './components/Home';
+import Home from './components';
 import Resume from './components/pages/Resume';
 import Projects from'./components/Projects';
 import Contact from './components/Contact';
@@ -15,7 +15,7 @@ function App() {
   return (
     <>
 <CssBaseline />
-<Route path="/" component={Home} />
+<Route exact path="/" component={Home} />
 <Route path='/resume' component={Resume} />
 <Route path='/projects' component={Projects} />
 <Route path='/contact' component={Contact} />

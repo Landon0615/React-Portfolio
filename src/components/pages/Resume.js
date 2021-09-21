@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Navbar from '../Navbar'
 import About from "./about/About";
 import Profile from "./profile/Profile";
 import Summary from "./summary/Summary";
@@ -11,7 +12,8 @@ export default class Resume extends Component {
   render() {
     return (
       <>
-      <section>
+      <Navbar/>
+      <section style={{ zIndex: 100 }} >
             <About />
         <div className="row sameHeight hide-on-med-and-down">
             <div className="col s12 m12 l8 brown lighten-3 sameHeight_child">

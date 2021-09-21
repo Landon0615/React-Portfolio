@@ -1,5 +1,7 @@
 import React, {useState} from 'react';
 import { validateEmail, capitalizeFirstLetter } from "./utils/helpers";
+import Navbar from './Navbar'
+import Particle from './Particle';
 
 
 function Contact() {
@@ -59,6 +61,7 @@ function Contact() {
 
   return (
       <>
+      <Navbar/>
     <div style={{ fontFamily: 'Monospace', fontSize: 20, color: '#607d8b', fontWeight: 'bold' }} className="page-div">
       <h2>Contact Me</h2>
       <form className="contact-form page-body" onSubmit={handleSubmit}>
@@ -83,6 +86,7 @@ function Contact() {
         <button style={{ fontFamily: 'Monospace', fontSize: 20, color: 'black', fontWeight: 'bold', background:'grey' }} type="submit" className="submit-contact contact-el">Submit</button>
       </form>
     </div>
+    <Particle/>
     </>
   );
 }
