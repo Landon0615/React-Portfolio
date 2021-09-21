@@ -1,7 +1,7 @@
 import React from 'react'
 import {makeStyles} from '@material-ui/core/styles'
 import { Typography, Avatar, Grid, Box } from '@material-ui/core';
-import Typed from "react-typed";
+import ReactTypingEffect from "react-typing-effect";
 import avatar from './images/avatar.png';
 
 // CSS STYLES 
@@ -39,18 +39,15 @@ export const Header = () => {
             <Avatar className={classes.avatar} src={avatar} alt="Landon Waddell"/> 
        </Grid>
        <Typography className={classes.title} variant="h4">
-           <Typed strings={["Landon Waddell"]} typeSpeed={40} />
+           <ReactTypingEffect text={["Landon Waddell"]}  />
        </Typography>
        <br/>
        <Typography className={classes.subtitle} variant="h5">
-           <Typed strings={["Web Design","Web Development","MERN Stack"]} 
-           typeSpeed={40}
-           backSpeed={60}
-           loop
+           <ReactTypingEffect text={["Web Design","Web Development","MERN Stack"]}         
            />
        </Typography>
        <Typography className={classes.title} variant="h4">
-           <Typed strings={["About Me"]} typeSpeed={40} />
+           <ReactTypingEffect text={["About Me"]}/>
        </Typography>
        <Box sx={{ textAlign: 'center', m: 1, fontFamily: 'Monospace', fontSize: 20, color: '#607d8b', fontWeight: 'bold'}}>Hello my name is Landon Waddell I am originally from Austin, Texas. I am currently living in Denver Colorado and working as a Toyota Master Technician. My educational back ground is I graduated from Ponderosa High School in 2011. I went to San Juan college in Farmington, New Mexico and graduated with an Associates in Applied Science concentrated in Toyota Automotive systems. I have now been working for Groove Toyota for six and half years. I am currently eager to move into the software development industry and possibly further my education.</Box>
         </Box>

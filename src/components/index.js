@@ -1,7 +1,7 @@
 import React from 'react'
 import Navbar from './Navbar'
 import Header from './Header'
-import Particles from 'react-particles-js'
+// import Particles from 'particlesjs'
 import {makeStyles} from "@material-ui/styles"
 
 const useStyles = makeStyles({
@@ -19,7 +19,7 @@ export const Home = () => {
         <>
         <Navbar/>
         <Header/>
-        <Particles
+        {/* <Particles
         canvasClassName={classes.particlesCanava}
           params={{
               particles: {
@@ -59,7 +59,7 @@ export const Home = () => {
                   }
               }
           }}
-        />
+        /> */}
         </>
     );
 };
