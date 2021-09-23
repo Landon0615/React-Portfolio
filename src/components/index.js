@@ -1,7 +1,7 @@
 import React from 'react'
 import Navbar from './Navbar'
 import Header from './Header'
-import Particle from './Particle'
+import ParticlesBg from 'particles-bg'
 
 
 
@@ -13,7 +13,7 @@ export const Home = () => {
         <>
         <Navbar/>
         <Header/>
-        <Particle/>
+        <ParticlesBg color="#008b8b" num={200} type="cobweb" bg={true} />
         </>
     );
 };

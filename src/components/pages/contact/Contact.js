@@ -4,7 +4,7 @@ export default class Contact extends Component {
   render() {
     return (
       <div>
-        <div className="card brown lighten-2 z-depth-0 mt">
+        <div className="card grey z-depth-0 mt">
             <div className="card-content contactInfo">
                 <p className="brown-text text-darken-4 pt">
                     <i className="fas fa-map-marker-alt"></i> Franktown, Colorado, 80116

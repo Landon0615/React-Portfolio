@@ -4,7 +4,7 @@ export default class Experiences extends Component {
   render() {
     return (
         <div>
-        <div className="card brown lighten-3 z-depth-0">
+        <div className="card grey z-depth-0">
             <div className="card-content">
                 <h6 className="brown-text text-darken-4">
                     <strong>
@@ -28,7 +28,7 @@ export default class Experiences extends Component {
                     </div>
                 </div>
                 <div>
-        <div className="card brown lighten-3 z-depth-0">
+        <div className="card grey z-depth-0">
             <div className="card-content">
                 <h6 className="brown-text text-darken-4">
                     <strong>

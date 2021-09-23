@@ -108,9 +108,9 @@ export const Navbar = () => {
             <AppBar position="static" style={{background: "#263238"}}>
                 <Toolbar>
                     <IconButton onClick={toggleSlider("right",true)}>
-                     <FiMenu  style={{color: "#6200ea"}} />
+                     <FiMenu  style={{color: "#6200ea", fontSize: '40px'}} />
                     </IconButton>
-                    <Typography variant="h5" style={{color: "#006064"}}> Portfolio </Typography>
+                    <Typography variant="h5" style={{color: "#006064", fontSize: '40px'}}> Portfolio </Typography>
                     <MobileRightMenuSlider 
                      anchor="right"
                      open={state.right}
@@ -118,17 +118,22 @@ export const Navbar = () => {
                         {sideList("right")}
                     </MobileRightMenuSlider>
                     <Row>
+                      
           <Col md={12} className="home-about-social">
               
-            <ul className="home-about-social-links">
+            <ul className="home-about-social-links" style={{color: "#6200ea", fontSize: '20px'}}>
+            Connect with me
               <li className="social-icons">
+                
                 <a
                   href="https://github.com/Landon0615"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
                 >
-                  <AiFillGithub />
+                     
+                  
+                  <AiFillGithub style={{color: "#6200ea", fontSize: '30px'}}/>
                 </a>
               </li>
               <li className="social-icons">
@@ -138,7 +143,7 @@ export const Navbar = () => {
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
                 >
-                  <FaLinkedinIn/>
+                  <FaLinkedinIn style={{color: "#6200ea", fontSize: '30px'}}/>
                 </a>
               </li>
               <li className="social-icons">
@@ -148,8 +153,9 @@ export const Navbar = () => {
                   rel="noreferrer"
                   className="icon-colour home-social-icons"
                 >
-                  <GoBook />
+                  <GoBook style={{color: "#6200ea", fontSize: '30px'}}/>
                 </a>
+               
               </li>
             </ul>
           </Col>

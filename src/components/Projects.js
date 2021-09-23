@@ -9,15 +9,17 @@ import kitchenForager from "./images/kitchenForager.png";
 import noteTaker from "./images/Note-Taker.png";
 import techBlog from "./images/Tech-Blog.png";
 import workoutTracker from "./images/workout-tracker.png";
+import ParticlesBg from 'particles-bg'
 
 function Projects() {
   return (
     <>
     <Navbar/>
+    <ParticlesBg color="#008b8b" num={200} type="cobweb" bg={true} />
     <Container fluid className="project-section">
       <Container>
         <h1 className="project-heading">
-           <strong className="grey">My Recent Works </strong>
+           <strong style={{background: '#008b8b'}}>My Recent Works </strong>
         </h1>
         <p style={{ fontFamily: 'Monospace', fontSize: 20, color: '#607d8b', fontWeight: 'bold' }}>
           Here are a few projects I've worked on recently.
