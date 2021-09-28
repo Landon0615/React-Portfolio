@@ -11,6 +11,7 @@ import techBlog from "./images/Tech-Blog.png";
 import workoutTracker from "./images/workout-tracker.png";
 import ParticlesBg from 'particles-bg'
 
+
 function Projects() {
   return (
     <>
@@ -32,7 +33,8 @@ function Projects() {
               title="Note-Taker"
               description="This is an application to let the user create a note, save a note and delete a note."
               link="https://github.com/Landon0615/Note_Taker"
-            />
+                       />
+            
           </Col>
 
           <Col md={4} className="project-card">

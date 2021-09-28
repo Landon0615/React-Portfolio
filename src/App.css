@@ -4,6 +4,9 @@ body {
   background-repeat: no-repeat;
 }
 
+
+
+
 .contactInfo p {
   line-height: 30px;
 }
@@ -107,3 +110,7 @@ h6 span {
   to {
     transform: rotate(360deg);
   }}
+
+  .transparentHover:hover {
+    opacity: .75;
+  }

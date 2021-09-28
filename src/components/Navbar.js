@@ -1,13 +1,7 @@
 import React, {useState} from 'react';
 import {Link} from 'react-router-dom';
-import {  Row, Col } from "react-bootstrap";
 import { makeStyles } from '@material-ui/core/styles';
-import MobileRightMenuSlider from '@material-ui/core/Drawer'
-import {
-    AiFillGithub,
-  } from "react-icons/ai";
-import { FaLinkedinIn } from "react-icons/fa";
-import { GoBook } from "react-icons/go";
+import MobileLeftMenuSlider from '@material-ui/core/Drawer'
 import { FiMenu } from "react-icons/fi";
 
 import { 
@@ -75,7 +69,7 @@ const menuItems = [
 
 export const Navbar = () => {
     const [state, setState] = useState({
-        right: false
+        left: false
     })
 
     const toggleSlider = (slider, open) => () => {
@@ -107,59 +101,16 @@ export const Navbar = () => {
         <Box component="nav">
             <AppBar position="static" style={{background: "#263238"}}>
                 <Toolbar>
-                    <IconButton onClick={toggleSlider("right",true)}>
+                    <IconButton onClick={toggleSlider("left",true)}>
                      <FiMenu  style={{color: "#6200ea", fontSize: '40px'}} />
                     </IconButton>
                     <Typography variant="h5" style={{color: "#006064", fontSize: '40px'}}> Portfolio </Typography>
-                    <MobileRightMenuSlider 
-                     anchor="right"
-                     open={state.right}
-                     onClose={toggleSlider("right", false)}>
-                        {sideList("right")}
-                    </MobileRightMenuSlider>
-                    <Row>
-                      
-          <Col md={12} className="home-about-social">
-              
-            <ul className="home-about-social-links" style={{color: "#6200ea", fontSize: '20px'}}>
-            Connect with me
-              <li className="social-icons">
-                
-                <a
-                  href="https://github.com/Landon0615"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour  home-social-icons"
-                >
-                     
-                  
-                  <AiFillGithub style={{color: "#6200ea", fontSize: '30px'}}/>
-                </a>
-              </li>
-              <li className="social-icons">
-                <a
-                  href="https://www.linkedin.com/in/landon-waddell-2b85071a8"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour  home-social-icons"
-                >
-                  <FaLinkedinIn style={{color: "#6200ea", fontSize: '30px'}}/>
-                </a>
-              </li>
-              <li className="social-icons">
-                <a
-                  href="https://docs.google.com/document/d/1htDMN6JKEFnsPJkyd9qwEhtHgs1F2687/edit?usp=sharing&ouid=102450789307734755664&rtpof=true&sd=true"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour home-social-icons"
-                >
-                  <GoBook style={{color: "#6200ea", fontSize: '30px'}}/>
-                </a>
-               
-              </li>
-            </ul>
-          </Col>
-        </Row>
+                    <MobileLeftMenuSlider 
+                     anchor="left"
+                     open={state.left}
+                     onClose={toggleSlider("left", false)}>
+                        {sideList("left")}
+                    </MobileLeftMenuSlider>
                 </Toolbar>
 
             </AppBar>

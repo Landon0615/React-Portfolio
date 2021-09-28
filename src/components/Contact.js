@@ -1,6 +1,7 @@
 import React, {useState} from 'react';
 import { validateEmail, capitalizeFirstLetter } from "./utils/helpers";
 import Navbar from './Navbar'
+import Footer from './Footer'
 import ParticlesBg from 'particles-bg'
 
 
@@ -86,6 +87,7 @@ function Contact() {
         <button style={{ fontFamily: 'Monospace', fontSize: 20, color: 'black', fontWeight: 'bold', background:'grey' }} type="submit" className="submit-contact contact-el">Submit</button>
       </form>
     </div>
+    <Footer/>
     <ParticlesBg color="#008b8b" num={200} type="cobweb" bg={true} />
     </>
   );

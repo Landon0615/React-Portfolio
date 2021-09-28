@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Navbar from '../Navbar'
-import About from "./about/About";
+// import About from "./about/About";
 import Profile from "./profile/Profile";
 import Summary from "./summary/Summary";
 import Contact from "./contact/Contact";
@@ -17,7 +17,7 @@ export default class Resume extends Component {
       <Navbar/>
       <ParticlesBg color="#008b8b" num={200} type="cobweb" bg={true} />
       <section style={{ zIndex: 100 }} >
-            <About />
+            {/* <About /> */}
         <div className="row sameHeight hide-on-med-and-down">
             <div className="col s12 m12 l8 grey darken-4 sameHeight_child">
                 <Summary />

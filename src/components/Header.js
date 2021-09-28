@@ -9,7 +9,7 @@ const useStyles = makeStyles(theme=> ({
     avatar: {
         width: theme.spacing(15),
         height: theme.spacing(15),
-        margin: theme.spacing(1)
+        margin: theme.spacing(2.75)
     },
     title: {
         color: "teal"
