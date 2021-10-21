@@ -18,7 +18,7 @@ export default class Skills extends Component {
                         </div>
                     </div>
                     <div className="col m6 s12">
-                        <p class="grey-text text-0-2">CSS</p>
+                        <p class="grey-text text-lighten-2">CSS</p>
                         <div className="progress white">
                             <div className="determinate teal " style={{ width: '99%' }}></div>
                         </div>
@@ -26,13 +26,13 @@ export default class Skills extends Component {
                 </div>
                 <div className="row pt">
                     <div className="col m6 s12">
-                        <p class="grey-text text-0-2">JAVASCRIPT</p>
+                        <p class="grey-text text-lighten-2">JAVASCRIPT</p>
                         <div className="progress white">
                             <div className="determinate teal" style={{ width: '90%' }}></div>
                         </div>
                     </div>
                     <div className="col m6 s12">
-                        <p class="grey-text text-0-2">PHP</p>
+                        <p class="grey-text text-lighten-2">PHP</p>
                         <div className="progress white">
                             <div className="determinate teal" style={{ width: '95%' }}></div>
                         </div>
@@ -40,13 +40,13 @@ export default class Skills extends Component {
                 </div>
                 <div className="row pt">
                     <div className="col m6 s12">
-                        <p class="grey-text text-0-2">MYSQL</p>
+                        <p class="grey-text text-lighten-2">GraphQL</p>
                         <div className="progress white">
                             <div className="determinate teal" style={{ width: '80%' }}></div>
                         </div>
                     </div>
                     <div className="col m6 s12">
-                        <p class="grey-text text-0-2">JQUERY</p>
+                        <p class="grey-text text-lighten-2">Material-ui</p>
                         <div className="progress white">
                             <div className="determinate teal" style={{ width: '85%' }}></div>
                         </div>

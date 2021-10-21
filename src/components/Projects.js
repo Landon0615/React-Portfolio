@@ -6,7 +6,7 @@ import ProjectCard from "./ProjectCards";
 import budgetTracker from "./images/budget-tracker.png";
 import bookSearch from "./images/Book-search.png";
 import kitchenForager from "./images/kitchenForager.png";
-import noteTaker from "./images/Note-Taker.png";
+import adventureTime from "./images/adventure-time.png";
 import techBlog from "./images/Tech-Blog.png";
 import workoutTracker from "./images/workout-tracker.png";
 import ParticlesBg from 'particles-bg'
@@ -28,11 +28,11 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={noteTaker}
+              imgPath={adventureTime}
               isBlog={false}
-              title="Note-Taker"
-              description="This is an application to let the user create a note, save a note and delete a note."
-              link=" https://note-taker-proto-type.herokuapp.com"
+              title="Adventure-Time"
+              description="The time has come to go out and explore all of the beautiful open spaces this country has to offer. When using Adventure Time you can earn badges by visiting outdoor spaces and comment on friends adventure."
+              link="https://adventure-time-with-friends.herokuapp.com/"
                        />
             
           </Col>

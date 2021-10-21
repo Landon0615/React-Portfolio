@@ -6,16 +6,19 @@ export default class Summary extends Component {
       <div>
         <div className="card grey  z-depth-0">
             <div className="card-content">
-                <h6 className="no-pad mt-bottom grey text-darken-4">
-                    <strong>SUMMARY</strong>
+                <h6 className="brown-text text-darken-4">
+                <strong>
+                        <i className="fas fa-graduation-cap"></i> SUMMARY
+                    </strong>
                 </h6>
-                <p className="pt grey text-darken-4">
+                <hr />
+                <h6 className="brown-text text-darken-4">
                   <list>
                     <li>Familiar with Windows, Mac, and some Linux. </li>
-                    <li>Problem-solver, dedicated, loyal.</li>
+                    <li>Problem-solver, dedicated, loyal, eager to always learn more.</li>
                     <li>Technical thinking, self-starter, team player.</li>
                   </list>
-                </p>
+                </h6>
             </div>
         </div>
       </div>

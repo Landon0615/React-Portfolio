@@ -19,8 +19,8 @@ export default class Experiences extends Component {
                                 <strong>  Groove Toyota, Line Technician</strong>
                                 <span>April 2015 – Present</span>
                                 <list>
-                                <li>Worked collaboratively on a team of four balancing workload and promise times to meet and exceed customer expectations. </li>
-                                <li>Followed technical instruction to complete warranty repairs due to manufacturing defaults. Documented repairs and sent information to engineers to help improve the product.</li>
+                                <li>Worked collaboratively on a team of four sharing knowledge and experience to diagnose and repair vehicles.</li>
+                                <li>Obtained certifications using time out-side of work  to increase my status and knowledge for Toyota </li>
                                 <li>Coordinated with various parties, such as advisors, fellow technicians, parts departments, specialty engineers, customers, and upper management to ensure customer satisfaction. </li>
                                 </list>
                             </h6>
@@ -40,7 +40,7 @@ export default class Experiences extends Component {
                     <div className="col s12">
                         <blockquote>
                             <h6 className="brown-text text-darken-4">
-                                <strong>A1-A8 ASE’s</strong>
+                                <strong>A1-A8 ASE’s  ▪  Certificate in Full Stack Web Development</strong>
                             </h6>
                         </blockquote>
                     </div>
